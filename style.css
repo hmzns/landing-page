@@ -22,6 +22,11 @@ a {
   padding: 20px;
 }
 
+.header, .footer {
+  position: fixed;
+  width: 100%;
+}
+
 /* Header */
 .header {
   background-color: #1f2937;
@@ -184,7 +189,7 @@ a {
   background-color: #3882f6;
   color: white;
   padding: 40px 20px;
-  margin: 60px auto;
+  margin: 60px auto 120px auto;
   border-radius: 8px;
   max-width: 1000px;
 }
@@ -222,4 +227,5 @@ a {
   color: white;
   text-align: center;
   padding: 20px;
+  bottom: 0;
 }
